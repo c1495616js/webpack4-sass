@@ -4,6 +4,12 @@
 
 ### This is used for sass starter and hot-reload by using webpack4
 
+### Activate
+
+```
+yarn run dev
+```
+
 
 ### Error
 
