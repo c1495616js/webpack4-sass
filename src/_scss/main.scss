@@ -1,9 +1,29 @@
-$color-orange: red;
-body {
-  background: $color-orange;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  font-size:0;
+}
+
+.div {  
+  height: 200px;
+  display: inline-block;
+  
+  &.l {
+    background-color:red;
+    width: 100px;
+  }
+
+  &.c {
+    background-color: blue;
+    width: calc(100% - 100px - 50px);
+  }
+
+  &.r {
+    background-color: green;
+    width:50px;
+  }
 }

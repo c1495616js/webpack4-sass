@@ -7,6 +7,8 @@
 ### Activate
 
 ```
+yarn install
+
 yarn run dev
 ```
 
